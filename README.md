@@ -1,3 +1,1 @@
-# Leetchip.github.io
-
-## <http://leetchip.github.io/>
+# [Leetchip.github.io](http://leetchip.github.io/)
