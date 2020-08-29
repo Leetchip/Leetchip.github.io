@@ -1,12 +1,7 @@
-p {
-	color: red;
-	font-size: 30px;
+li {
+    margin: 10px 0;
 }
 
-.social {
-	color: yellow;
-}
-
-.normal {
-	color: black;
+.questions {
+    font-size: 18px;
 }
