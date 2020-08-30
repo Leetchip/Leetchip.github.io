@@ -2,6 +2,10 @@ li {
     margin: 10px 0;
 }
 
+nav {
+    font-size: 18px;
+}
+
 .questions {
     font-size: 18px;
 }
