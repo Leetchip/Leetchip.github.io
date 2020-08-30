@@ -2,8 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href='stylesheets/main.css'>
+		<link rel="stylesheet" href='css/main.css'>
 		<title>LeetChip - Circuit Design Interview Questions</title>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body>
 		<header>
@@ -12,10 +13,23 @@
 			</h1>
 			<nav>
 				<a href="index.html">Analog</a>
-				<a href="pages/digital.html">Digital</a>
+				<a href="digital.html">Digital</a>
 			</nav>
 			<hr>
 		</header>
+
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
+
+            </div>
+
+            <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+            <!--end of Navigation bar-->
+
 		<section class="questions">
 			<ol>
 				<li>Draw a low pass filter.</li>
