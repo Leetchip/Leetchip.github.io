@@ -9,3 +9,9 @@ nav {
 a:link, a:visited {
     color: blue;
 }
+
+section.about {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 50%;
+}
