@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176799564-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-176799564-1');
+		</script>
+		<!-- end global site tag -->
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" href='css/main.css'>
+		<title>LeetChip - Circuit Design Interview Questions - Two Stage Opamp</title>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body>
+		<header>
+            <!--Navigation bar-->
+            <div id="nav-placeholder"> </div>
+
+            <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+            <!--end of Navigation bar-->
+		</header>
+
+		<section class="questions">
+            <p>Here's a classic run down of the two stage opamp. As a circuit designer, these fundamentals should be engrained. At a reputable company, probably at least 75% of these would be asked.</p>    
+			<ol>
+				<li>Draw the basic CMOS two stage opamp.</li>
+                <li>Label the inputs and outputs. Which input is the positive input?</li>
+                <li>How do you know this is the correct positive input?</li>
+                <li>Why would you use two stages instead of only one?</li>
+                <li>What input differential pair FET type would you use? PFET or NFET? Why?</li>
+                <li>In DC normal operation, What is the input resistance?</li>
+                <li>In DC normal operation, What is the output resistance?</li>
+                <li>What are the input and output voltage operating ranges/swings?</li>
+                <li>If the input voltages are equal, and set such that all the transistors are in saturation. What is the voltage at the gate of the second stage input?</li>
+                <li>What is the DC open loop gain?</li>
+                <li>How would you increase the gain?</li>
+                <li>Does increasing the 1st stage current increase or decrease the gain? Why is that?</li>
+                <li>What is the dominant pole of a Miller compensated two stage opamp?</li>
+                <li>What is the Miller compensation?</li>
+                <li>What is the second dominant pole?</li>
+                <li>What is the third dominant pole?</li>
+                <li>Why do people usually not worry about the third pole?</li>
+                <li>Is it possible to do o</li>
+                <li>How much attenuation and phase shift does one pole give?</li>
+                <li>For one pole, can the phase shift reach 90 degrees?</li>
+                <li>What is the gain bandwidth product of the two stage opamp?</li>
+                <li>Where is the second stage zero?</li>
+                <li>Is this zero good or bad? Why?</li>
+                <li>Do you know techniques to deal with this zero?</li>
+                <li>If a nulling resistor is used, do you use a resistor or transistor?</li>
+                <li>Would you put this resistor or transistor on the left or right side of the compensation capacitor? Why?</li>
+                <li>What can you do to make your two stage opamp more stable?</li>
+                <li>What is the positive slew rate?</li>
+                <li>What is the negative slew rate?</li>
+                <li>How can you increase slew rate?</li>
+                <li>What is the common mode rejection ratio (CMRR)?</li>
+                <li>Does CMRR get better or worse as you increase frequency? Why?</li>
+                <li>What is power supply rejection ratio (PSRR)?</li>
+                <li>Write the positive and negative PSRR equations.</li>
+                <li>How does the Miller capacitance affect PSRR?</li>
+                <li>What's the input offset mismatch?</li>
+                <li>How do you ratio the stage 1 and stage 2 currents to reduce systematic offset?</li>
+                <li>How would you decrease random mismatch? What drawbacks are there?</li>
+                <li>How does each transistor in the first stage contribute to the input-referred noise?</li>
+                <li>How would you decrease the input-referred noise? What are the drawbacks?</li>
+                <li>Explain the difference between flicker and thermal noise.</li>
+                <li>Floorplan a two stage opamp layout.</li>
+                <li>Which devices should be matched?</li>
+			</ol>
+		</section>
+		<!--Navigation bar-->
+        <div id="footer-placeholder"> </div>
+
+        <script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+	</body>
+</html>
