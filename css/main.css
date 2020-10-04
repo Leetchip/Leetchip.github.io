@@ -9,6 +9,10 @@ ul.about {
     width: 60%; 
 }
 
+p {
+    font-size: 18px;
+}
+
 nav {
     font-size: 18px;
 }

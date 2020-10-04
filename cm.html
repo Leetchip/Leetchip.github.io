@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176799564-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-176799564-1');
+        </script>
+        <!-- end global site tag -->
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href='css/main.css'>
+        <title>LeetChip - Circuit Design Interview Questions - Current Mirrors</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--Navigation bar-->
+            <div id="nav-placeholder"> </div>
+
+            <script>
+            $(function(){
+              $("#nav-placeholder").load("nav.html");
+            });
+            </script>
+            <!--end of Navigation bar-->
+        </header>
+
+        <section class="questions">
+            <ol>
+                <li>Draw a two transistor current mirror. The input transistor is M1. The output transistor is M2.</li>
+                <li>Assume both transistors are the same size, and in saturation. If the input current is Iin, what is Iout?</li>
+                <li>If I want Iout to be half of Iin, what would you do?</li>
+                <li>So we could change widths, lengths, add unit devices. Which is preferred? Why?</li>
+                <li>How does M2 Vds affect Iout?</li>
+                <li>Why does Iout change with Vds?</li>
+                <li>How do we reduce the effect of Vds? Draw the circuit. Explain how to size devices.</li>
+                <li>If M1 has a resistor at it's source, how does Iout change with respect to Iin?</li>
+                <li>How do you reduce mismatch in a current mirror?</li>
+                <li>How do you reduce noise in a current mirror?</li>
+                <li>What is the bandwidth of a current mirror?</li>
+                <li>If I want a 1-4 current ratio with unit devices, how do you layout that out? Why?</li>
+            </ol>
+        </section>
+        <!--Navigation bar-->
+        <div id="footer-placeholder"> </div>
+
+        <script>
+        $(function(){
+          $("#footer-placeholder").load("footer.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+    </body>
+</html>
